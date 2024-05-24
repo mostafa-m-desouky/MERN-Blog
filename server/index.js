@@ -19,6 +19,9 @@ mongoose
 
 
 app.use("/api/auth", authRoute);
+app.use("/api/users", userRoute);
+app.use("/api/posts", postRoute);
+app.use("/api/categories", categoryRoute);
 
 app.listen("5000", () => {
     console.log("running on Port: 5000")
