@@ -23,3 +23,8 @@ a {
   width: min(100% - 30px, 992px);
   margin-inline: auto;
 }
+
+.paragrph{
+  height: min(100% - 30px, 992px);
+  margin-inline: auto;
+}
