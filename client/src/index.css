@@ -18,3 +18,8 @@ a {
   width: min(100% - 30px, 992px);
   margin-inline: auto;
 }
+
+.blogs{
+  width: min(100% - 30px, 992px);
+  margin-inline: auto;
+}
