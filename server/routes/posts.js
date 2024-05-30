@@ -31,7 +31,7 @@ router.put("/:id", async (req, res) => {
         res.status(500).json(err);
       }
     } else {
-      res.status(401).json("You can update only your post!");
+      res.status(401).json("You can now update only your post!");
     }
   } catch (err) {
     res.status(500).json(err);
