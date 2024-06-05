@@ -1,4 +1,4 @@
-# MERN Stack Blog Project
+# MERN-Blog Project
 
 Welcome to the MERN Stack Blog Project! This repository contains the source code for a blogging platform built using the MERN (MongoDB, Express.js, React, Node.js) stack.
 
