@@ -28,6 +28,7 @@ export default function Register() {
       <span className="registerTitle">Register</span>
       <form className="registerForm" onSubmit={handleSubmit}>
         <label>Username</label>
+<<<<<<< HEAD
         <input
           type="text"
           className="registerInput"
@@ -51,6 +52,14 @@ export default function Register() {
         <button className="registerButton" type="submit">
           Register
         </button>
+=======
+        <input className="registerInput" type="text" placeholder="Enter your username . . ." />
+        <label>Email</label>
+        <input className="registerInput" type="text" placeholder="Enter your e-mail . . ." />
+        <label>Password</label>
+        <input className="registerInput" type="password" placeholder="Enter your password . . ." />
+        <button className="registerButton">Register</button>
+>>>>>>> origin/main
       </form>
       <button className="registerLoginButton">
         <Link className="link" to="/login">
@@ -59,5 +68,10 @@ export default function Register() {
       </button>
       {error && <span style={{color:"red", marginTop:"10px"}}>Something went wrong!</span>}
     </div>
+<<<<<<< HEAD
   );
 }
+=======
+    )
+}
+>>>>>>> origin/main
